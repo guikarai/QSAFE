@@ -22,6 +22,11 @@ This github entry to help to consume crypto based operational data and logs in o
 ## Steps
 ### Step 1 : Building required docker images for s390x
 ### Step 2 : Running Elastic stack on s390x processor architecture
+* Creating docker network
+* Starting Elasticsearch
+* Starting Kibana with an alternate configuration yaml
+* Connecting to Elasticsearch for the first time
+* Connecting to Kibana for the first time
 ### Step 3 : Listing essential crypto operational data that matter for building a Quantum-Safe dashboard
 ### Step 4 : Feeding Elastic stack with Quantum-Safe operational data
 ### Step 5 : Building essential dashboards to exploit Quantum-Safe operational data
