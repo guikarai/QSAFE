@@ -26,6 +26,7 @@ This github entry to help to consume crypto based operational data and logs in o
 
 ### Step 2 : Running Elastic stack on s390x processor architecture
 * Creating docker network
+
 We will make sure that Kibana and Elasticsearch are in the same isolated network, and that Kibana will attach to a user defined network (useful for connecting to other services (e.g. Elasticsearch)). If network has not yet been created, this can be done with the following command:
 ```
 $ docker network create somenetwork
